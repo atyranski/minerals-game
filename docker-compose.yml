@@ -1,0 +1,5 @@
+services:
+  kafka-cluster:
+    image: dougdonohoe/fast-data-dev
+    ports:
+      - 2181:2181
